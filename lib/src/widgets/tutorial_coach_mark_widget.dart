@@ -210,7 +210,7 @@ class TutorialCoachMarkWidgetState extends State<TutorialCoachMarkWidget>
       alignment: currentTarget?.alignSkip ?? widget.alignSkip,
       child: SafeArea(
         child: AnimatedOpacity(
-          opacity: showContent ? 1 : 0,
+          opacity: 1,
           duration: Duration(milliseconds: 300),
           child: InkWell(
             onTap: skip,
